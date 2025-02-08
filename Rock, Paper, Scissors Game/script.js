@@ -7,18 +7,18 @@ const lossesDisplay = document.getElementById("losses");
 const drawsDisplay = document.getElementById("draws");
 const resetButton = document.getElementById("reset");
 
-// Load audio files
+// To Fetch or Load audio files
 const clickSound = document.getElementById("clickSound");
 const winSound = document.getElementById("winSound");
 const loseSound = document.getElementById("loseSound");
 const drawSound = document.getElementById("drawSound");
 
-// Score tracking
+// Score variables
 let wins = 0, losses = 0, draws = 0;
 
 document.querySelectorAll(".choice").forEach(button => {
     button.addEventListener("click", function() {
-        clickSound.play(); // Play click sound
+        clickSound.play(); // To Play click sound when button is clicked
 
         const userChoice = this.id;
         const computerChoice = choices[Math.floor(Math.random() * choices.length)];
