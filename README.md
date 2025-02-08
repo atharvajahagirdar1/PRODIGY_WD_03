@@ -4,8 +4,7 @@ A fun & interactive **Rock, Paper, Scissors** game built for **#PRODIGY_WD_03** 
 
 ✨ **Features:**  
 ✅ Smooth UI & animations 🎨  
-✅ Live scoreboard 📊  
-✅ AI-powered opponent 🤖  
+✅ Live scoreboard 📊   
 ✅ Fully responsive 📱  
 
 Built with **HTML, CSS & JavaScript** 💻🚀
