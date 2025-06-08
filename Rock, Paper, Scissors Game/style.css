@@ -13,7 +13,7 @@ body {
     padding: 20px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 15px #FA008A;
 }
 
 h1 {
@@ -46,6 +46,7 @@ h1 {
 
 .choice:hover {
     transform: scale(1.2);
+    box-shadow: aqua 5px 5px 10px;
 }
 
 .result {
@@ -73,4 +74,5 @@ h1 {
 
 #reset:hover {
     background: #ff4757;
+    box-shadow: 5px 5px 10px #ff6b6b;
 }
